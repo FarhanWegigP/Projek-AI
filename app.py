@@ -77,6 +77,3 @@ def diabetes():
             st.error("Anda tidak memiliki resiko diabetes")
         else:
             st.success("Anda beresiko mengalami diabetes")
-# Menjalankan fungsi untuk prediksi diabetes
-if add_selectitem == "Prediksi Diabetes ANN":
-    diabetes()
