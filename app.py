@@ -77,9 +77,9 @@ def diabetes():
         with st.spinner("Memprediksi..."):
             time.sleep(2)
         if pred[0] == 0:
-            st.error("Diabetes sitik ngkas modar")
+            st.error("Anda tidak memiliki resiko diabetes")
         else:
-            st.success("ANDA BEBAS DARI DIABETES")
+            st.success("Anda beresiko mengalami diabetes")
 # Menjalankan fungsi untuk prediksi diabetes
 if add_selectitem == "Prediksi Diabetes ANN":
     diabetes()
