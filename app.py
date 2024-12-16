@@ -23,9 +23,6 @@ st.write("""
 This web predicts the risk of diabetes based on user input.
 """)
 
-# Pilih model yang digunakan
-add_selectitem = st.sidebar.selectbox("Pilih model yang digunakan", ("Prediksi Diabetes ANN"))
-
 def diabetes():
     st.write("""
     Situs ini memprediksi risiko diabetes!
